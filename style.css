@@ -1,0 +1,214 @@
+
+
+body {
+    font-family: sans-serif;
+}
+.main {
+    display: flex;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* main box */
+.container {
+    flex: 2;
+    border: 4px solid lightgrey;
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    height: 300px;
+}
+.card_head {
+    background-color: rgb(62, 161, 194);
+    height: 100px;
+}
+h1 {
+    margin-bottom: -90px;
+}
+.picture {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+}
+.card_body {
+    margin: 20px;
+}
+.master {
+    margin-top: -15px;
+}
+.gear_image {
+    margin-top: -40px;
+}
+img {
+    height: 15px;
+}
+.edit {
+    color: rgb(95, 150, 222);
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+/* right coll */
+.right_col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.number2 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    text-align: middle;
+    justify-content: center;
+}
+
+.image1 {
+    margin-left: 10px;
+}
+
+.image {
+    margin-left: 10px;
+}
+
+/* right top box */
+.right_top {
+    border: 4px solid lightgrey;
+    margin: 10px;
+    height: 40%;
+    width: 53%;
+}
+.right_top_header {
+    background-color: rgb(69, 67, 67);
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.connection {
+    margin-left: 10px;
+    color: white;
+}
+.button_main {
+    width: 80%;
+}
+.button1 {
+    border-radius: 70%;
+    height: 25px;
+    color: white;
+    background-color: darkgrey;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+}
+.button2 {
+    border-radius: 70%;
+    height: 25px;
+    color: white;
+    background-color: darkgrey;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+#button1 {
+    margin-left: 58px;
+}
+#button2 {
+    margin-right: -10px;
+}
+
+/* right bottom container */
+.right_bottom {
+    border: 4px solid lightgrey;
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+}
+.right_bottom_header {
+    background-color: rgb(69, 67, 67);
+    height: 50px;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.your_connection {
+    color: white;
+}
+.your_connection a {
+    color: white;
+
+}
+.number500 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    color: black;
+    height: 25px;
+    margin-right: 10px;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+}
+.number500_radius {
+    background-color: lightgrey;
+    height: 25px;
+    border-radius: 50%;
+}
+.number500 > a {
+    font-size: x-small;
+}
+.viewMore {
+    border-top: 4px solid lightgrey;
+    height: 36px;
+    width: 100%;
+    display: flex;
+
+}
+.viewMore a {
+    color: rgb(95, 150, 222);
+    margin-top: 10px;
+}
+
+
+ /* footer */
+ .footer {
+    border: 4px solid lightgrey;
+    height: 150px;
+    width: 400pxpx;
+    margin: 10px;
+    border-bottom: none;
+    
+ }
+ .footer_top {
+    background-color: rgb(69, 67, 67);
+    height: 20px;
+    padding: 10px;
+    color: white;
+ }
+ .education {
+    margin-top: -1px;
+    margin-left: 10px;
+ }
+ .footer_body {
+    padding-left: 20px;
+ }
+#date {
+    margin-top: -5px;
+    color: rgb(120, 116, 116);
+}
+#triple {
+    margin-top: -5px;
+}
+
+ a {
+    margin-left: 10px;
+ }
